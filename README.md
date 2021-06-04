@@ -99,4 +99,4 @@ Contributions are what make the open source community such an amazing place to b
 * [github](https://www.github.com/ahmadner)
 * [facebook](https://www.facebook.com/ahmadner0/)
 * [instagram](https://www.instagram.com/ahmad.ner_/)
-* * Email : ahmadmnueirat@gmail.com
+* Email : ahmadmnueirat@gmail.com
