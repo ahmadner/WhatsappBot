@@ -47,8 +47,10 @@ whatsappBot:
 To get a local copy up and running follow these simple steps.
 
 ### Install For Linux
-#### need to Download :
 This is an example of how to list things you need to use the software and how to install them.
+
+#### need to Download :
+
 * install python3 
 ```sh
 sudo apt-get -y install python3
@@ -71,49 +73,34 @@ sudo pip3 install datetime
 ```sh
 sudo pip3 install wikipedia
 ```
-
 ### Installation
  
-1. Clone the repo
 ```sh
-git https://github.com/eng-aomar/content_aggergator.git
+git clone https://github.com/ahmadner/finalWhatsapp.git
 ```
-2. Install requirements packages
 ```sh
-pip3 install -r requirements.txt
+cd finalWhatsapp
 ```
-3. Add enviromntal variables for Mogodb connection:
+```sh
+sudo chmod +x Setup.sh
 ```
-    Variable Name :DB_URI
-    Vraiable Value: your connection string
+```sh
+./setup.sh
 ```
-<!-- USAGE EXAMPLES -->
+
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/eng-aomar/content_aggergator/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
+* on terminal :
+```sh
+whatsapp
+```
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Built By
 
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+* [Ahmad Nueirat](https://www.github.com/ahmadner)
+* [email](ahmadmnueirat@gmail.com)
+* [facebook](https://www.facebook.com/ahmadner0/)
+* [instagram](https://www.instagram.com/ahmad.ner_/)
