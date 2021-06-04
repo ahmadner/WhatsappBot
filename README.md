@@ -1,19 +1,17 @@
-# finalWhatsapp
+# Whatsapp Bot
 
 A program that uses the WhatsApp platform as an intermediary between the user and the server
 to quickly provide several different services to facilitate the user some operations
 
-With the content aggregator, all of the latest information can be gotten from one site that aggregates all the content. People can see the posts that interest them and can decide to find out more about them without traipsing all over the internet.
-
 Python libraries used to build my content aggregator
 
-Requests: HTTP library for Python, built for human beings.
-Beautiful Soup: Python library for quick turnaround projects like screen-scraping.
-PyMongo :is a Python distribution containing tools for working with MongoDB, and is the recommended way to work with MongoDB from Python.
-SendGrid : for email sending
-BluePrint : Functional Structuring of files
-Concurent.futures: to achive faster execution time using multithreading. 
-
+selenium : The selenium package is used to automate web browser interaction from Python.
+pytube : pytube is a very serious, lightweight, dependency-free Python library or downloading YouTube Videos.
+datetime : The datetime module supplies classes for manipulating dates and times.
+wikipedia : Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.
+os : The os module provides dozens of functions for interacting with the operating system.
+random : random can generate random numbers in Python by using random module. 
+time : time module provides various time-related functions
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
