@@ -20,7 +20,8 @@ Python libraries used to build my content aggregator
 * [For Linux](#For-Linux)
   * [Auto Installation](#Auto-Installation)
   * [Manual installation](#Manual-installation)
-* [Usage](#usage)
+  * [Usage](#usage)
+* [For Windows](#For-Windows)
 * [Contributing](#contributing)
 * [Built By](#built-By)
 <!-- ABOUT THE PROJECT -->
@@ -91,7 +92,7 @@ sudo pip3 install wikipedia
 chmod +x chromedriver
 ```
 
-## Usage
+### Usage
 
 * on terminal :
 ```sh
@@ -101,6 +102,11 @@ whatsapp
 ```sh
 python3 whatsappBot
 ```
+
+## For Windows
+
+* COMMING SOON
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
