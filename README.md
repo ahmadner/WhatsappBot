@@ -30,9 +30,13 @@ Python libraries used to build my content aggregator
 whatsappBot:
 **A project that uses python3 and some software to create a program that provides some services such as downloading videos as audio clips, creating random user passwords and other services**
 
+* The services provided by the program :
+1. dwonload audio from utube
+2. dwounload video from youtube
+3. search on wikipedia
+4. create random password
 
 ### Built With
-
 * [Python](https://www.python.org/)
 * [selenium](https://pypi.org/project/selenium/)
 * [pytube](https://pypi.org/project/pytube/)
