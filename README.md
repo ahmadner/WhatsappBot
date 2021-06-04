@@ -97,6 +97,10 @@ chmod +x chromedriver
 ```sh
 whatsapp
 ```
+* or 
+```sh
+python3 whatsappBot
+```
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
