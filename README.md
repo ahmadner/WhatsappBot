@@ -18,7 +18,7 @@ Python libraries used to build my content aggregator
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Install For Linux](#For-Linux)
+  * [For Linux](#For-Linux)
   * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
@@ -55,7 +55,6 @@ sudo apt-get -y install python3
 ```sh
 sudo apt-get -y install python3-pip
 ```
-
 * pip
 ```sh
 sudo pip3 install selenium
