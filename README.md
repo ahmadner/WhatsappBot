@@ -46,12 +46,30 @@ whatsappBot:
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+### Install For Linux
 
 This is an example of how to list things you need to use the software and how to install them.
+* install python3 
+```sh
+sudo apt-get -y install python3
+```
+* install pip
+```sh
+sudo apt-get -y install python3-pip
+```
+
 * pip
 ```sh
-pip3 install -r requirements.txt
+sudo pip3 install selenium
+```
+```sh
+sudo pip3 install pytube
+```
+```sh
+sudo pip3 install datetime
+```
+```sh
+sudo pip3 install wikipedia
 ```
 
 ### Installation
