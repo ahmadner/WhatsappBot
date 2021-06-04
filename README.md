@@ -18,7 +18,7 @@ Python libraries used to build my content aggregator
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Install For Linux](#prerequisites)
+  * [Install For Linux](#Install-For-Linux)
   * [Installation](#installation)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
