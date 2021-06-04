@@ -30,12 +30,8 @@ Python libraries used to build my content aggregator
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Content Aggregator][Main-screan Desktop Layout]](https://github.com/eng-aomar/content_aggergator/blob/master/ca.jpg)
-[![Content Aggreagtor][Main-screan Mobile Layout]](https://github.com/eng-aomar/content_aggergator/blob/master/WhatsApp%20Image%202020-08-09%20at%2011.20.08%20AM.jpeg)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
+whatsappBot:
+**A project that uses python3 and some software to create a program that provides some services such as downloading videos as audio clips, creating random user passwords and other services**
 
 
 ### Built With
