@@ -18,14 +18,10 @@ Python libraries used to build my content aggregator
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Install For Linux](#Install-For-Linux)
+  * [Install For Linux](#For-Linux)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -46,7 +42,7 @@ whatsappBot:
 
 To get a local copy up and running follow these simple steps.
 
-### Install For Linux
+### For Linux
 This is an example of how to list things you need to use the software and how to install them.
 
 #### need to Download :
