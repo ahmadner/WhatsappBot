@@ -36,10 +36,10 @@ whatsappBot:
 
 ### Built With
 
-* [Python Flask](https://flask.palletsprojects.com/en/1.1.x/)
-* [BeutifulSoup](https://pypi.org/project/beautifulsoup4/)
-* [Requests](https://pypi.org/project/requests/)
-* [Mongodb](https://www.mongodb.com/cloud/atlas)
+* [Python](https://www.python.org/)
+* [selenium](https://pypi.org/project/selenium/)
+* [pytube](https://pypi.org/project/pytube/)
+* [wikipedia](https://pypi.org/project/wikipedia/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
