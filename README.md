@@ -5,13 +5,13 @@ to quickly provide several different services to facilitate the user some operat
 
 Python libraries used to build my content aggregator
 
-selenium : The selenium package is used to automate web browser interaction from Python.
-pytube : pytube is a very serious, lightweight, dependency-free Python library or downloading YouTube Videos.
-datetime : The datetime module supplies classes for manipulating dates and times.
-wikipedia : Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.
-os : The os module provides dozens of functions for interacting with the operating system.
-random : random can generate random numbers in Python by using random module. 
-time : time module provides various time-related functions
+* selenium : The selenium package is used to automate web browser interaction from Python.
+* pytube : pytube is a very serious, lightweight, dependency-free Python library or downloading YouTube Videos.
+* datetime : The datetime module supplies classes for manipulating dates and times.
+* wikipedia : Wikipedia is a Python library that makes it easy to access and parse data from Wikipedia.
+* os : The os module provides dozens of functions for interacting with the operating system.
+* random : random can generate random numbers in Python by using random module. 
+* time : time module provides various time-related functions
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
