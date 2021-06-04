@@ -22,7 +22,7 @@ Python libraries used to build my content aggregator
   * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-
+* [Built By](#built-By)
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -95,8 +95,8 @@ whatsapp
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ### Built By
-
-* [Ahmad Nueirat](https://www.github.com/ahmadner)
-* Email : ahmadmnueirat@gmail.com
+#### Ahmad nueirat
+* [github](https://www.github.com/ahmadner)
 * [facebook](https://www.facebook.com/ahmadner0/)
 * [instagram](https://www.instagram.com/ahmad.ner_/)
+* * Email : ahmadmnueirat@gmail.com
