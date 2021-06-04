@@ -17,9 +17,9 @@ Python libraries used to build my content aggregator
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [For Linux](#For-Linux)
-  * [Installation](#installation)
+* [For Linux](#For-Linux)
+  * [Auto Installation](#Auto-Installation)
+  * [Manual installation](#Manual-installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Built By](#built-By)
@@ -42,10 +42,27 @@ whatsappBot:
 
 To get a local copy up and running follow these simple steps.
 
-### For Linux
+## For Linux
 This is an example of how to list things you need to use the software and how to install them.
 
-#### need to Download :
+### Auto Installation
+
+* auto install for ubunut and debian
+
+```sh
+git clone https://github.com/ahmadner/finalWhatsapp.git
+```
+```sh
+cd finalWhatsapp
+```
+```sh
+sudo chmod +x Setup.sh
+```
+```sh
+./setup.sh
+```
+
+### Manual installation
 
 * install python3 
 ```sh
@@ -68,19 +85,10 @@ sudo pip3 install datetime
 ```sh
 sudo pip3 install wikipedia
 ```
-### Installation
- 
+* install Chrome webDriver : [ChromeDriver](https://chromedriver.storage.googleapis.com/index.html?path=90.0.4430.24/)
+
 ```sh
-git clone https://github.com/ahmadner/finalWhatsapp.git
-```
-```sh
-cd finalWhatsapp
-```
-```sh
-sudo chmod +x Setup.sh
-```
-```sh
-./setup.sh
+chmod +x chromedriver
 ```
 
 ## Usage
