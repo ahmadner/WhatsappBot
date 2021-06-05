@@ -64,7 +64,7 @@ cd WhatsappBot
 sudo chmod +x Setup.sh
 ```
 ```sh
-./setup.sh
+./Setup.sh
 ```
 
 ### Manual installation
