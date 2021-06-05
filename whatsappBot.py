@@ -1,14 +1,17 @@
-#try :
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from password import randomPass
-from time import sleep
-from tubeDownloader import _tubeDownloader
-from wiki import _wikipediaSearcher
-from xpath import xpathLink
-from proj import projList
-#except:print('Error in librarys')
-driverLoc = r'/home/linux/Desktop/botWhatsapp/chromedriver'
+try :
+    import os
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+    from password import randomPass
+    from time import sleep
+    from tubeDownloader import _tubeDownloader
+    from wiki import _wikipediaSearcher
+    from xpath import xpathLink
+    from proj import projList
+except:print('Error in librarys')
+    
+userDir = os.environ.get('USER')
+driverLoc = (f'/home/{userDir}/whatsappBot/chromedriver')
 driver = webdriver.Chrome(driverLoc)
 url = 'https://web.whatsapp.com/'
 driver.get(url)
