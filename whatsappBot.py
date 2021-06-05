@@ -10,13 +10,15 @@ try :
     from proj import projList
 except:print('Error in librarys')
 
-try :
+try : # for chrome Driver
     userDir = os.environ.get('USER')
     driverLoc = (f'/home/{userDir}/whatsappBot/chromedriver')
     driver = webdriver.Chrome(driverLoc)
-except :
+except : # for firefox Driver
+    userDir = os.environ.get('USER')
+    driverLoc = (f'/home/{userDir}/whatsappBot/geckodriver')
     driver = webdriver.Firefox()
-    print ('\n[*] opening FireFox .....\n')
+    print ('\n[*] opening FireFox ...\n')
 url = (r'https://web.whatsapp.com/')
 driver.get(url)
 input('\n[*] after scan whatsapp QR press enter')
