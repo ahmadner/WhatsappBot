@@ -16,8 +16,8 @@ try :
     driver = webdriver.Chrome(driverLoc)
 except :
     driver = webdriver.Firefox()
-    print ('\n[*] opening FireFox .....\n'
-url = r'https://web.whatsapp.com/'
+    print ('\n[*] opening FireFox .....\n')
+url = (r'https://web.whatsapp.com/')
 driver.get(url)
 input('\n[*] after scan whatsapp QR press enter')
 
