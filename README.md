@@ -37,7 +37,7 @@ whatsappBot:
 4. create random password
 
 ### Built With
-* [Python](https://www.python.org/)
+* [Python3.8](https://www.python.org/)
 * [selenium](https://pypi.org/project/selenium/)
 * [pytube](https://pypi.org/project/pytube/)
 * [wikipedia](https://pypi.org/project/wikipedia/)
@@ -66,6 +66,7 @@ sudo chmod +x Setup.sh
 ```sh
 ./Setup.sh
 ```
+* you need install [FireFox](https://support.mozilla.org/en-US/kb/install-firefox-linux) OR [google-chrome](https://itsfoss.com/install-chrome-ubuntu/)
 
 ### Manual installation
 
@@ -90,7 +91,8 @@ sudo pip3 install datetime
 ```sh
 sudo pip3 install wikipedia
 ```
-* install Chrome webDriver : [ChromeDriver](https://chromedriver.storage.googleapis.com/index.html?path=90.0.4430.24/)
+* install Chrome webDriver : [ChromeDriver](https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip) or [FirefoxDriver](https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz)
+* install [FireFox](https://support.mozilla.org/en-US/kb/install-firefox-linux) OR [google-chrome](https://itsfoss.com/install-chrome-ubuntu/)
 
 ```sh
 chmod +x chromedriver
