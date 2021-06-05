@@ -30,7 +30,7 @@ def _users(user) :
         lastMsg = (driver.find_element_by_xpath(users_xpath).get_attribute('title')).strip('\u202a'+'\u202c')
         userID = driver.find_element_by_xpath(userID_xpath).text
     except:
-        lastMsg = '__Error__'
+        lastMsg = 'typing'
         userID = 'unanimous_user'
 
 def _send(val) :
@@ -80,14 +80,12 @@ def _main() :
         if lastMsg == 'start':
             _send('start')
         elif lastMsg == '1':
-            #random password
-            _send(randomPass())
+            _send('Write ( a + URL ) for audio')
         elif lastMsg == '2':
             #youtube mp4 Downloader
             _send('Write ( d + URL ) for video')
         elif lastMsg == '3':
-            #youtube mp3 Dwonloader
-            _send('Write ( a + URL ) for audio')
+            _send(randomPass())
         elif lastMsg == '4':
             #search in wiki
             _send('Write ( w + thing to search)')
@@ -100,14 +98,8 @@ def _main() :
         elif lastMsg[0] == 'w':
             #search in wiki
             wiki()
-        elif lastMsg == 'me':
-            print (userID)
-            _send(userID)
-        elif lastMsg == '__Error__':
-            print('[*] Error in LastMsg')
         else :
             pass
-
 while True :
     _main()
         
