@@ -6,8 +6,8 @@ def _tubeDownloader(video_url,ex):
         from datetime import datetime
         global count
         homedir = os.environ['HOME']
-        video_folder = f'{homedir}/whatsappFiles/dwonloads/mp4'
-        audio_folder = f'{homedir}/whatsappFiles/dwonloads/mp3'
+        video_folder = f'{homedir}/whatsappBot/whatsappFiles/dwonloads/mp4'
+        audio_folder = f'{homedir}/whatsappBot/whatsappFiles/dwonloads/mp3'
         now = datetime.now()
         t = now.strftime(r"%m%d%Y%H%M%S")
         url = video_url[1]
@@ -26,4 +26,3 @@ def _tubeDownloader(video_url,ex):
             folderLink = (f'{audio_folder}/{vName}.mp3')
             return folderLink
     except:print ('[*] Error in tubeDownloader');return 'Error'
-
