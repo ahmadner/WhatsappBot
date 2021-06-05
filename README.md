@@ -55,10 +55,10 @@ This is an example of how to list things you need to use the software and how to
 * auto install for ubunut and debian
 
 ```sh
-git clone https://github.com/ahmadner/finalWhatsapp.git
+git clone https://github.com/ahmadner/WhatsappBot.git
 ```
 ```sh
-cd finalWhatsapp
+cd WhatsappBot
 ```
 ```sh
 sudo chmod +x Setup.sh
