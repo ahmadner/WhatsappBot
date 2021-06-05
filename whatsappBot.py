@@ -9,10 +9,14 @@ try :
     from xpath import xpathLink
     from proj import projList
 except:print('Error in librarys')
-    
-userDir = os.environ.get('USER')
-driverLoc = (f'/home/{userDir}/whatsappBot/chromedriver')
-driver = webdriver.Chrome(driverLoc)
+
+try :
+    userDir = os.environ.get('USER')
+    driverLoc = (f'/home/{userDir}/whatsappBot/chromedriver')
+    driver = webdriver.Chrome(driverLoc)
+except :
+    driver = webdriver.Firefox()
+    print ('\n[*] opening FireFox .....\n'
 url = 'https://web.whatsapp.com/'
 driver.get(url)
 input('\n[*] after scan whatsapp QR press enter')
