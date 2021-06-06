@@ -94,10 +94,10 @@ def _main() :
             #youtube mp4 Downloader
             _send('Write ( d + URL ) for video')
         elif lastMsg == '3':
-            _send(randomPass())
+            _send('Write ( w + thing to search)')            
         elif lastMsg == '4':
             #search in wiki
-            _send('Write ( w + thing to search)')
+            _send(randomPass())
         elif lastMsg[0] == 'd':
             #youtube mp4 Downloader
             getTubeDownloader('d')
