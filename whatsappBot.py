@@ -85,6 +85,7 @@ def wiki():
 
 while True :
     try :
+        userCount =len(driver.find_elements_by_class_name('TbtXF'))
         for i in range (1,(userCount+1)):
             _users(i)
             if lastMsg == 'start':
