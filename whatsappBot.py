@@ -83,32 +83,33 @@ def wiki():
     res = _wikipediaSearcher(_stringToList(lastMsg))
     _send(res)
 
-def _main() : 
-    for i in range (1,(userCount+1)):
-        _users(i)
-        if lastMsg == 'start':
-            _send('start')
-        elif lastMsg == '1':
-            _send('Write ( a + URL ) for audio')
-        elif lastMsg == '2':
-            #youtube mp4 Downloader
-            _send('Write ( d + URL ) for video')
-        elif lastMsg == '3':
-            _send('Write ( w + thing to search)')            
-        elif lastMsg == '4':
-            #search in wiki
-            _send(randomPass())
-        elif lastMsg[0] == 'd':
-            #youtube mp4 Downloader
-            getTubeDownloader('d')
-        elif lastMsg[0] == 'a':
-            #youtube mp3 Downloader
-            getTubeDownloader('a')
-        elif lastMsg[0] == 'w':
-            #search in wiki
-            wiki()
-        else :
-            pass
 while True :
-    _main()
-        
+    try :
+        for i in range (1,(userCount+1)):
+            _users(i)
+            if lastMsg == 'start':
+                _send('start')
+            elif lastMsg == '1':
+                _send('Write ( a + URL ) for audio')
+            elif lastMsg == '2':
+                #youtube mp4 Downloader
+                _send('Write ( d + URL ) for video')
+            elif lastMsg == '3':
+                _send('Write ( w + thing to search)')            
+            elif lastMsg == '4':
+                #search in wiki
+                _send(randomPass())
+            elif lastMsg[0] == 'd':
+                #youtube mp4 Downloader
+                getTubeDownloader('d')
+            elif lastMsg[0] == 'a':
+                #youtube mp3 Downloader
+                getTubeDownloader('a')
+            elif lastMsg[0] == 'w':
+                #search in wiki
+                wiki()
+            else :
+                pass
+    except:
+        driver.get(url)
+        sleep(30)
