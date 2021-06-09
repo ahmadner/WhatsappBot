@@ -52,6 +52,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Auto Installation
 * you need install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to start
+* you need install [FireFox](https://support.mozilla.org/en-US/kb/install-firefox-linux) OR [google-chrome](https://itsfoss.com/install-chrome-ubuntu/)
 * auto install for ubunut and debian
 
 ```sh
@@ -66,7 +67,6 @@ sudo chmod +x Setup.sh
 ```sh
 ./Setup.sh
 ```
-* you need install [FireFox](https://support.mozilla.org/en-US/kb/install-firefox-linux) OR [google-chrome](https://itsfoss.com/install-chrome-ubuntu/)
 
 ### Manual installation
 
