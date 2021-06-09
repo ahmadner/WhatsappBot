@@ -31,10 +31,10 @@ whatsappBot:
 **A project that uses python3 and some software to create a program that provides some services such as downloading videos as audio clips, creating random user passwords and other services**
 
 * The services provided by the program :
-1. dwonload audio from youtube
-2. dwounload video from youtube
-3. search on wikipedia
-4. create random password
+ 1. dwonload audio from youtube
+ 2. dwounload video from youtube
+ 3. search on wikipedia
+ 4. create random password
 
 ### Built With
 * [Python3.8](https://www.python.org/)
