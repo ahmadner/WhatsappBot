@@ -111,7 +111,7 @@ python3 whatsappBot
 
 ## For Windows
 
-* COMMING SOON
+* to dwonload whatsappBot for windows from [hear](https://github.com/ahmadner/WhatsappBot_windows)
 
 ## Contributing
 
