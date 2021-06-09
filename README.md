@@ -51,7 +51,7 @@ To get a local copy up and running follow these simple steps.
 This is an example of how to list things you need to use the software and how to install them.
 
 ### Auto Installation
-
+* you need install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to start
 * auto install for ubunut and debian
 
 ```sh
