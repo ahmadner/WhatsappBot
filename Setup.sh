@@ -1,7 +1,7 @@
 #!/bin/bash
-sudo apt -y update
-sudo apt-get -y update --fix-missing
-sudo apt -y upgrade 
+#sudo apt -y update
+#sudo apt-get -y update --fix-missing
+#sudo apt -y upgrade 
 sudo apt-get -y install python3
 sudo apt-get -y install python3-pip
 sudo pip3 install selenium
@@ -21,5 +21,5 @@ sudo rm -rf ~/whatsappBot/temp
 sudo cp ~/whatsappBot/whatsapp /bin
 sudo chmod 777 /bin/whatsapp
 sudo chmod -R 777 ~/whatsappBot
-sudo apt-get -y update –fix-missing
+#sudo apt-get -y update –fix-missing
 whatsapp
