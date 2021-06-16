@@ -17,7 +17,7 @@ try : # for chrome Driver
 except : # for firefox Driver
     userDir = os.environ.get('USER')
     driverLoc = (f'/home/{userDir}/whatsappBot/geckodriver')
-    driver = webdriver.Firefox()
+    driver = webdriver.Firefox(executable_path=driverLoc)
     print ('\n[*] opening FireFox ...\n')
 url = (r'https://web.whatsapp.com/')
 driver.get(url)
