@@ -91,14 +91,14 @@ sudo pip3 install datetime
 ```sh
 sudo pip3 install wikipedia
 ```
-* install Chrome webDriver : [ChromeDriver](https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip) or [FirefoxDriver](https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz)
+* install webDriver : [ChromeDriver](https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_linux64.zip) or [FirefoxDriver](https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux64.tar.gz)
 * install [FireFox](https://support.mozilla.org/en-US/kb/install-firefox-linux) OR [google-chrome](https://itsfoss.com/install-chrome-ubuntu/)
 
-*for chrome Driver
+* for chrome Driver
 ```sh
 sudo chmod +x chromedriver
 ```
-*for firefox Driver
+* for firefox Driver
 ```sh
 sudo chmod +x geckodriver
 ```
